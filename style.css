@@ -2,56 +2,76 @@ body {
 
 }
 
+h1 {
+    font-size: 4em;
+}
+
 .mainContainer {
     border: 5px solid #1B262C;
-    background-color: #0F4C75;
+    background-color: rgb(185, 216, 236);
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 90vW;
     height: 90vh;
+    margin: 15px auto;
 }
 
 .questionBox {
     border: 3px solid black;
     border-radius: 15px;
-    background-color: #3282b8;
-    width: 80vw;
+    background-color: #9cccec;
+    width: 60vw;
 }
 
-h1 {
+h3 {
     text-align: center;
-    color: wheat;
-    opacity: 0.3;
-    font-size: 3em;
+    color: black;
+    font-size: 3.2em;
 }
 
 .answerBox {
-    border: 2px solid red;
+    border: 2px solid black;
     border-radius: 15px;
     background-color: #bbe1fa;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 25px;
-    width: 50%;
+    padding: 25px 30px;
+    width: 40vw;
+    align-items: center;
 
 }
 
-button {
-    background-color: grey;
+.options > button {
+    background-color: f0efef;
     text-align: center;
     color: black;
-    font-size: 1.5em;
-
+    font-size: 2em;
+    margin: 10px;
+    box-shadow: -5px -5px 3px 3px rgba(0,0,0,0.25);
+    border-radius: 5px;
+    padding: 25px;
+    width: 40vw;
 }
+.options button:hover {
+    background: #ccc; /* Alternative Hintergrundfarbe beim Überfahren */
+    background-image: linear-gradient(grey, wheat); /*Farbverlauf*/
+   }
 
 .btn-next {
     font-weight: 300;
-    background-color: green;
-    /* box-shadow: -2px -2px  grey; */
-    align-self: flex-end;
-    margin: 0, 20px, 20px ,0;
-    border-radius: 2px;
+    background-color: cadetblue;
+    box-shadow: -5px -5px 3px 3px rgba(0,0,0,0.25);
+    align-self: center;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-right: 50px;
+    font-size: 2em;
+    font-weight: bold;
+    width: 12vw;
+
+
 }
