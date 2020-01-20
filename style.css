@@ -1,0 +1,57 @@
+body {
+
+}
+
+.mainContainer {
+    border: 5px solid #1B262C;
+    background-color: #0F4C75;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vW;
+    height: 90vh;
+}
+
+.questionBox {
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #3282b8;
+    width: 80vw;
+}
+
+h1 {
+    text-align: center;
+    color: wheat;
+    opacity: 0.3;
+    font-size: 3em;
+}
+
+.answerBox {
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: #bbe1fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    width: 50%;
+
+}
+
+button {
+    background-color: grey;
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+
+}
+
+.btn-next {
+    font-weight: 300;
+    background-color: green;
+    /* box-shadow: -2px -2px  grey; */
+    align-self: flex-end;
+    margin: 0, 20px, 20px ,0;
+    border-radius: 2px;
+}
