@@ -15,12 +15,20 @@ function startGame() {
 }
 
 function checkCurrentAnswer(event) {
-  count++
+  count++;
+
+
 
   if (count <= 1) {  //only when clicked option button for first time
     let answer = event.currentTarget.innerHTML;
     let answerBtn = event.currentTarget;
     let correct = questionArr[currentQuestion - 1].correctAnswer;
+
+    btnNext.style.visibility = "visible"
+
+
+
+
 
 
     // buttonNExt visibility show 
@@ -34,6 +42,8 @@ function checkCurrentAnswer(event) {
     } else {
       answerBtn.style.backgroundColor = "red";
     };
+
+
 
   }
 
@@ -49,12 +59,16 @@ function shuffle(a) {
     a[i] = a[j];
     a[j] = x;
   }
+
   return a;
 }
 
 
 function showQuestion() {
   count = 0
+
+  btnNext.style.visibility = "hidden"
+
 
   options.forEach(function (button) {
     button.style.backgroundColor = "white";
