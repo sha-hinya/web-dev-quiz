@@ -1,27 +1,28 @@
-body {
-}
 
 h1 {
   font-size: 10px;
 }
 
 .mainContainer {
-  border: 5px solid #1b262c;
+  border: solid 5px rgba(108,156,183,1);
   background-color: rgb(185, 216, 236);
-  border-radius: 15px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  /* width: 90vw; */
+  width: 90vw;
   height: 90vh;
   margin: 15px auto;
+  background-image: url(./images/macProBulb.jfif);
+  opacity: 0.9;
+  height: 100vH;
 }
 
 .questionBox {
   border: 3px solid red;
   border-radius: 15px;
-  background-color: #9cccec;
+  background-color: rgba(108,156,183,0.75);
   width: 60vw;
 }
 
@@ -29,6 +30,9 @@ h3 {
   text-align: center;
   color: black;
   font-size: 1.52em;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Kalam', cursive;
+
 }
 
 .answerBox {
@@ -41,6 +45,8 @@ h3 {
   padding: 25px 30px;
   /* width: 40vw; */
   align-items: center;
+  background-color: rgba(108,156,183,0.75);
+
 }
 
 .options > button {
@@ -51,6 +57,8 @@ h3 {
   margin: 10px;
   box-shadow: -5px -5px 3px 3px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
+  font-family: 'Neucha', cursive;
+
   padding: 25px;
   width: 40vw;
 }
@@ -66,6 +74,8 @@ h3 {
   align-self: center;
   border-radius: 5px;
   padding: 15px 20px;
+  font-family: 'Kalam', cursive;
+
   /* margin-right: 50px; */
   /* font-size: 2em; */
   /* font-weight: bold; */

@@ -1,5 +1,11 @@
 let questionArr = [
   {
+    question: "What are the names of our Bootcamp Web Dev dogs?",
+    correctAnswer: "Tove and Loui",
+    wrongAnswer1: "Tom and Jerry",
+    wrongAnswer2: "Alfa and Dalula"
+  },
+  {
     question: "HTML - what is true for a block level element?",
     correctAnswer: "<section> is a block level element",
     wrongAnswer1: "only take up as much space as necessary",
@@ -25,12 +31,6 @@ let questionArr = [
     correctAnswer: "text-color: white;",
     wrongAnswer1: "direction-flex: row;",
     wrongAnswer2: "align-self: center"
-  },
-  {
-    question: "What are the names of our Bootcamp Web Dev dogs?",
-    correctAnswer: "Tom and Jerry",
-    wrongAnswer1: "Touve and Emma",
-    wrongAnswer2: "Alfa and Dalula"
   },
   {
     question: "Event Loop",
