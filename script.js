@@ -1,8 +1,7 @@
-let count = 0
-let start = false
+let count = 0;
+let start = false;
 
 
-//button.onclick = startGame()
 
 
 function startGame() {
@@ -10,6 +9,10 @@ function startGame() {
 
   if (start === true) {
     showQuestion();
+    btnStart.style.visibility = "hidden"
+
+
+
   }
   //hide button start
 }
@@ -106,6 +109,16 @@ const questionBoxH3 = document.querySelector(".questionBox > h3");
 const answerBox = document.getElementsByClassName(".answerBox");
 const options = document.querySelectorAll(".options button");
 const btnNext = document.querySelector(".btn-next");
+const btnStart = document.querySelector(".btn-start");
+console.log(btnStart)
+
+btnStart.onclick = startGame
+
+
+
+
+
+
 let currentQuestion = 0;
 let score = 0;
 // let firstQuestion = questionArr[0].question;

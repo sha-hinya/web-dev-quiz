@@ -7,7 +7,7 @@ let questionArr = [
   },
   {
     question: "HTML - what is true for a block level element?",
-    correctAnswer: "<section> is a block level element",
+    correctAnswer: "&lt;section&gt; is a block level element",
     wrongAnswer1: "only take up as much space as necessary",
     wrongAnswer2: "both answers above are true"
   },
