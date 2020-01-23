@@ -36,7 +36,7 @@ let questionArr = [
     question: "JS - For an interpolation of a variable in a string, we use …",
     correctAnswer: "backticks",
     wrongAnswer1: "square bracket",
-    wrongAnswer2: "single quates "
+    wrongAnswer2: "single quotes "
   },
   {
     question: "JS - What is true about the .includes() method?",

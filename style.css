@@ -7,28 +7,27 @@ body {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
-  /* align-items: center; */
-  /* width: 90vw; */
+
   height: 90vh;
   margin: 15px auto;
   background-image: url(./images/photo-1484417894907-623942c8ee29.jfif);
-  /* background-image: url(./images/macProBulb.jfif); */
-  /* background-repeat: no-repeat; */
   background-size: cover;
-  /* background-position: center; */
   opacity: 0.9;
   width: 100%;
   height: 100vh;
+  
 }
 
 .questionBox {
   border: 1px solid black;
   border-radius: 15px;
-  /* background-color: rgba(49, 99, 149, 0.75); */
   background-color: rgba(156, 178, 192, 0.45);
   padding: 15px 25px;
+  /* width: 42vw; */
+  width: 22cm;
+  margin-left: 5vw;
 }
 
 h3 {
@@ -48,11 +47,13 @@ h3 {
   flex-direction: column;
   justify-content: center;
   padding: 25px 30px;
-  /* width: 40vw; */
+  /* width: 2cm; */
   align-items: center;
-  /* background-color: rgba(49, 99, 149, 0.75); */
   background-color: rgba(156, 178, 192, 0.45);
-  visibility: hidden;}
+  visibility: hidden;
+  margin-left: 6vw;
+  margin-top: 4vw;
+}
 
 .options > button {
   /* background-color: ; */
@@ -80,6 +81,8 @@ h3 {
   visibility: hidden;;
   font-size: 1.25em;
   font-weight: bold;
+  margin-top: 3vw;
+  margin-right: 41vw;
 }
 
 .btn-next:hover {
@@ -90,13 +93,15 @@ h3 {
 .btn-start {
   background-color: rgba(156, 178, 192, 0.45);
   border: solid 2px black;
-  align-self: center;
+  /* align-self: center; */
+  /* justify-self: center;   */
   border-radius: 5px;
   padding: 15px 20px;
   font-weight: bold;
   font-size: 1.5em;
-  /* font-family: 'Kalam', cursive; */
   font-family: 'Source Code Pro', monospace;
+  position: absolute;
+  margin-left: 25vw;
 
 }
 
@@ -106,4 +111,13 @@ h3 {
 .score {
   border: 1px solid black;
   background-color:  rgba(156, 178, 192, 0.8) ;
+  padding: 5px 10px;
+  font-weight: 300;
+  font-size: 1em;
+  align-self: center;
+  margin-top: 10px;
+  margin-right: 42vw;
+  border-radius: 5px;
+
+
 }
