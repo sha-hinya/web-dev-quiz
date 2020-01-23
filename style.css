@@ -1,17 +1,15 @@
-
-h1 {
-  font-size: 10px;
+body {
+  font-family: 'Source Code Pro', monospace;
 }
 
 .mainContainer {
-  border: solid 5px rgba(108,156,183,1);
-  background-color: rgb(185, 216, 236);
+  border: solid 1px black;;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 90vw;
+  /* width: 90vw; */
   height: 90vh;
   margin: 15px auto;
   background-image: url(./images/macProBulb.jfif);
@@ -20,23 +18,24 @@ h1 {
 }
 
 .questionBox {
-  border: 3px solid red;
+  border: 1px solid black;
   border-radius: 15px;
-  background-color: rgba(108,156,183,0.75);
-  width: 60vw;
+  /* background-color: rgba(49, 99, 149, 0.75); */
+  background-color: rgba(156, 178, 192, 0.45);
+  padding: 15px 25px;
 }
 
 h3 {
   text-align: center;
   color: black;
   font-size: 1.52em;
-  /* font-family: 'Josefin Sans', sans-serif; */
-  font-family: 'Kalam', cursive;
+  /* font-family: 'Kalam', cursive; */
+  font-family: 'Source Code Pro', monospace;
 
 }
 
 .answerBox {
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 15px;
   background-color: #bbe1fa;
   display: flex;
@@ -45,48 +44,56 @@ h3 {
   padding: 25px 30px;
   /* width: 40vw; */
   align-items: center;
-  background-color: rgba(108,156,183,0.75);
-
-}
+  /* background-color: rgba(49, 99, 149, 0.75); */
+  background-color: rgba(156, 178, 192, 0.45);
+  visibility: hidden;}
 
 .options > button {
-  background-color: f0efef;
+  /* background-color: ; */
   text-align: center;
+  font-family: 'Source Code Pro', monospace;s
   color: black;
   font-size: 1rem;
   margin: 10px;
   box-shadow: -5px -5px 3px 3px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  font-family: 'Neucha', cursive;
-
   padding: 25px;
   width: 40vw;
 }
 .options button:hover {
-  background: #ccc; /* Alternative Hintergrundfarbe beim Überfahren */
-  background-image: linear-gradient(grey, wheat); /*Farbverlauf*/
+  background-image: linear-gradient(rgb(147, 156, 160), rgb(172, 187, 194)); /*Farbverlauf*/
 }
 
 .btn-next {
   /* font-weight: 300; */
-  background-color: cadetblue;
-  box-shadow: -5px -5px 3px 3px rgba(0, 0, 0, 0.25);
+  background-color: rgba(156, 178, 192, 0.95);
+  font-family: 'Source Code Pro', monospace;
   align-self: center;
   border-radius: 5px;
   padding: 15px 20px;
-  font-family: 'Kalam', cursive;
-
-  /* margin-right: 50px; */
-  /* font-size: 2em; */
-  /* font-weight: bold; */
-  /* width: 12vw; */
+  visibility: hidden;;
+  font-size: 1.25em;
+  font-weight: bold;
 }
 
+.btn-next:hover {
+  background-image: linear-gradient(rgb(147, 156, 160), rgb(172, 187, 194)); /*Farbverlauf*/
+}
+
+
 .btn-start {
-  background-color: darkblue;
-  box-shadow: -5px -5px 3px 3px rgba(0, 0, 0, 0.25);
+  background-color: rgba(156, 178, 192, 0.45);
+  border: solid 2px black;
   align-self: center;
   border-radius: 5px;
   padding: 15px 20px;
-  font-family: 'Kalam', cursive;
+  font-weight: bold;
+  font-size: 1.5em;
+  /* font-family: 'Kalam', cursive; */
+  font-family: 'Source Code Pro', monospace;
+
+}
+
+.btn-start:hover {
+  background-image: linear-gradient(rgb(147, 156, 160), rgb(172, 187, 194)); /*Farbverlauf*/
 }
