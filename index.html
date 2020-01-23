@@ -12,22 +12,29 @@
 <body>
   <div class="mainContainer">
     <div class="questionBox">
-      <h3> Let's see how much we actually remember from the first Module of the Web Dev Bootcampt! </h3>
+      <h3> Let's see how much we actually remember from the first Module of the Web Dev Bootcamp! </h3>
     </div>
+    <div class="score"></div>
     <button class="btn-start">START</button>
     <div class="answerBox">
-      <div class="options option_one">
+      <div class="options option_one" onmouseover="playclip()">
         <button></button>
       </div>
-      <div class="options option_two">
+      <div class="options option_two" onmouseover="playclip()">
         <button></button>
       </div>
-      <div class="options option_three">
+      <div class="options option_three" onmouseover="playclip()">
         <button></button>
       </div>
     </div>
     <button class="btn-next">Next Question</button>
+    <audio>
+      <source src="./sound-mouseover/click.mp3">
+      <source src="./sound-mouseover/click.ogg">
+    </audio>
   </div>
+
+  <script type="text/javascript" src="./sound-mouseover/sound-mouseover.js"></script>
 
   <script src="data.js"></script>
   <script src="script.js"></script>

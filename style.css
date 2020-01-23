@@ -8,13 +8,19 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
+  /* align-items: center; */
   /* width: 90vw; */
   height: 90vh;
   margin: 15px auto;
-  background-image: url(./images/macProBulb.jfif);
+  background-image: url(./images/photo-1484417894907-623942c8ee29.jfif);
+  /* background-image: url(./images/macProBulb.jfif); */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* background-position: center; */
   opacity: 0.9;
-  height: 100vH;
+  width: 100%;
+  height: 100vh;
 }
 
 .questionBox {
@@ -51,7 +57,7 @@ h3 {
 .options > button {
   /* background-color: ; */
   text-align: center;
-  font-family: 'Source Code Pro', monospace;s
+  font-family: 'Source Code Pro', monospace;
   color: black;
   font-size: 1rem;
   margin: 10px;
@@ -96,4 +102,8 @@ h3 {
 
 .btn-start:hover {
   background-image: linear-gradient(rgb(147, 156, 160), rgb(172, 187, 194)); /*Farbverlauf*/
+}
+.score {
+  border: 1px solid black;
+  background-color:  rgba(156, 178, 192, 0.8) ;
 }

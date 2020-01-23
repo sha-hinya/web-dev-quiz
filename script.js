@@ -27,6 +27,8 @@ function checkCurrentAnswer(event) {
     } else {
       answerBtn.style.backgroundColor = "red";
     };
+    const scoreDiv = document.querySelector(".score");
+    scoreDiv.innerHTML = `Your score is ${score} /12`;
   }
 }
 
@@ -96,7 +98,6 @@ options.forEach(function (button) {
   button.onclick = checkCurrentAnswer;
 
 });
-
 
 
 
