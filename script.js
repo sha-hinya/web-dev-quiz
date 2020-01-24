@@ -38,7 +38,7 @@ function checkCurrentAnswer(event) {
 
       });
       console.log('filtered', filtered[0].innerHTML)
-      filtered[0].style.backgroundColor = "green";
+      filtered[0].style.border = "5px solid green";
 
       answerBtn.style.backgroundColor = "red";
       // return false
