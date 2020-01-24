@@ -31,6 +31,15 @@ function checkCurrentAnswer(event) {
       score++;
       answerBtn.style.backgroundColor = "green";
     } else {
+      var optionsArr = Array.from(options);
+
+      let filtered = optionsArr.filter(function (button) {
+        return button.innerHTML === correct;
+
+      });
+      console.log('filtered', filtered[0].innerHTML)
+      filtered[0].style.backgroundColor = "green";
+
       answerBtn.style.backgroundColor = "red";
       // return false
       // if (wrong) {
