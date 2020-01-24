@@ -40,7 +40,7 @@ function checkCurrentAnswer(event) {
       // console.log('filtered', filtered[0].innerHTML)
 
       answerBtn.style.backgroundColor = "red";
-      // filtered[0].style.border = "5px solid green";
+      filtered[0].style.border = "5px solid green";
 
 
       // }
@@ -64,10 +64,11 @@ function shuffle(a) {
 
 function showQuestion() {
   count = 0
+
   // answerBox.style.visibility = "visible"
   btnNext.style.visibility = "hidden"
   options.forEach(function (button) {
-
+    button.style.border = "1px solid transparent"
     button.style.backgroundColor = "white";
     questionBoxH3.classList.add('animated', 'bounceInDown');
     button.classList.add('animated', 'bounceInUp');
