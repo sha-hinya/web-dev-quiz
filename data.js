@@ -57,7 +57,7 @@ let questionArr = [
     wrongAnswer2: "true || false // =&gt; false"
   },
   {
-    question: "JS - what is the difference between .slice() and .substring()",
+    question: "JS - What is the difference between .slice() and .substring()",
     correctAnswer: ".slice() also supports a negative number",
     wrongAnswer1: "there is no difference, they can be used equivalently",
     wrongAnswer2: ".substring() also supports a negative number"
@@ -70,7 +70,37 @@ let questionArr = [
     wrongAnswer2: "undefined and null"
   },
   {
-    question: "Event Loop",
+    question: "JS - Which of the following advanced methods will mutate an array ?",
+    correctAnswer: ".reverse() and.forEach",
+    wrongAnswer1: ".map(), .filter() and.reduce()",
+    wrongAnswer2: ".forEach() and.map()"
+  },
+  {
+    question: "When it comes to programming what is TDD associated with?",
+    correctAnswer: "it refers to software testing and its approach is to write the tests before writing the code",
+    wrongAnswer1: "it refers to software testing and its approach is to write the tests after writing the code",
+    wrongAnswer2: " it refers to Time Defined Designing"
+  },
+  {
+    question: "When creating a class, the constructor is a special method ...",
+    correctAnswer: "used to create the instance objects.",
+    wrongAnswer1: "used to create objects different structure.",
+    wrongAnswer2: "can be used several times in a class"
+  },
+  {
+    question: "An anonymous function ...",
+    correctAnswer: "is not accessible after its creation if no variable assigned to it",
+    wrongAnswer1: "can be used as a parameter passed to another function",
+    wrongAnswer2: "all answers are correct "
+  },
+  {
+    question: "Which command is used to view all commits made in the past ..",
+    correctAnswer: "git log",
+    wrongAnswer1: "git commit",
+    wrongAnswer2: "git status"
+  },
+  {
+    question: "Thank you for planing!",
     correctAnswer: "O1",
     wrongAnswer1: "O2",
     wrongAnswer2: "O3"

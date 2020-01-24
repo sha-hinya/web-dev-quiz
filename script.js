@@ -10,14 +10,20 @@ function startGame() {
   }
 }
 
+function endGame() {
+  answerBox.style.visibility = "hidden";
+}
+
 function checkCurrentAnswer(event) {
   count++;
   if (count <= 1) {  //only when clicked option button for first time
     let answer = event.currentTarget.innerHTML;
     let answerBtn = event.currentTarget;
     let correct = questionArr[currentQuestion - 1].correctAnswer;
+    let wrong = !correct;
 
     btnNext.style.visibility = "visible" // buttonNExt visibility show 
+    btnNext.classList.add('animated', 'flip');
     console.log('answe', answer)
     console.log('correct', correct)
 
@@ -26,9 +32,13 @@ function checkCurrentAnswer(event) {
       answerBtn.style.backgroundColor = "green";
     } else {
       answerBtn.style.backgroundColor = "red";
+      // return false
+      // if (wrong) {
+
+      // }
     };
     const scoreDiv = document.querySelector(".score");
-    scoreDiv.innerHTML = `Your score is ${score} /12`;
+    scoreDiv.innerHTML = `Your score is ${score} /17`;
   }
 }
 
@@ -43,13 +53,19 @@ function shuffle(a) {
   return a;
 }
 
+
 function showQuestion() {
   count = 0
   // answerBox.style.visibility = "visible"
   btnNext.style.visibility = "hidden"
   options.forEach(function (button) {
+
     button.style.backgroundColor = "white";
+    questionBoxH3.classList.add('animated', 'bounceInDown');
+    button.classList.add('animated', 'bounceInUp');
   });
+
+
 
   let currentQuestionIndex = currentQuestion;
   questionBoxH3.innerHTML = questionArr[currentQuestionIndex].question;
@@ -64,6 +80,8 @@ function showQuestion() {
 
   if (currentQuestionIndex < questionArr.length - 1) {
     currentQuestion++;
+  } else {
+    endGame();
   }
 }
 
