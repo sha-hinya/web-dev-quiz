@@ -6,6 +6,24 @@ let questionArr = [
     wrongAnswer2: "Alfa and Dalula"
   },
   {
+    question: "How many nationalities are represented in our class?",
+    correctAnswer: "20",
+    wrongAnswer1: "18",
+    wrongAnswer2: "17"
+  },
+  {
+    question: "What is the average age of the class members?",
+    correctAnswer: "31,6",
+    wrongAnswer1: "29,3",
+    wrongAnswer2: "35,1"
+  },
+  {
+    question: "Who is the youngest in this room?",
+    correctAnswer: "Dalina",
+    wrongAnswer1: "Sebastian",
+    wrongAnswer2: "Montasar"
+  },
+  {
     question: "HTML - what is true for a block level element?",
     correctAnswer: "&lt;section&gt; is a block level element",
     wrongAnswer1: "only take up as much space as necessary",

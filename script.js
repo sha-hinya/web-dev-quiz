@@ -37,12 +37,11 @@ function checkCurrentAnswer(event) {
         return button.innerHTML === correct;
 
       });
-      console.log('filtered', filtered[0].innerHTML)
-      filtered[0].style.border = "5px solid green";
+      // console.log('filtered', filtered[0].innerHTML)
 
       answerBtn.style.backgroundColor = "red";
-      // return false
-      // if (wrong) {
+      // filtered[0].style.border = "5px solid green";
+
 
       // }
     };
